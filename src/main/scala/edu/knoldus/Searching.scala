@@ -13,15 +13,16 @@ class Searching {
 
   // Binary Search
   def binarySearch(numbers: Array[Int], toFind: Int, startIndex: Int, endIndex: Int): Boolean = {
-    if(startIndex > endIndex)
-      false
-    val mid = (startIndex + (endIndex - startIndex + 1))/2
-    if(numbers(mid) == toFind)
-      true
-    else if(numbers(mid) > toFind)
-      binarySearch(numbers, toFind, startIndex, mid - 1)
-    else
-      binarySearch(numbers, toFind, mid + 1, endIndex)
+    if(startIndex < endIndex) {
+      val mid = startIndex + (endIndex - startIndex )/2
+      if (numbers(mid) == toFind)
+        true
+      else if (numbers(mid) > toFind)
+        binarySearch(numbers, toFind, startIndex, mid - 1)
+      else
+        binarySearch(numbers, toFind, mid + 1, endIndex)
+    }
+    return false
   }
 
 
