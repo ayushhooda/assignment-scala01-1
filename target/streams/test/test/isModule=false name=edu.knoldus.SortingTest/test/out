@@ -1,0 +1,16 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mSortingTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Test Insertion Sort *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.ArrayIndexOutOfBoundsException: 6[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.knoldus.Sorting.$anonfun$insertionSort$1(Sorting.scala:8)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:156)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.knoldus.Sorting.insertionSort(Sorting.scala:7)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.knoldus.SortingTest.$anonfun$new$1(SortingTest.scala:11)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Test Selection Sort[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Test Bubble Sort[0m[0m
