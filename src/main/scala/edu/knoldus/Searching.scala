@@ -4,10 +4,10 @@ class Searching {
 
   // Linear Search
   def linearSearch(numbers: Array[Int], toFind: Int): Boolean = {
-    for(i <- 0 until numbers.length - 1) {
+    for(i <- 0 until numbers.length) {
       if(numbers(i) == toFind)
-        true
-    }
+        return true
+      }
     false
   }
 
@@ -22,7 +22,8 @@ class Searching {
       else
         binarySearch(numbers, toFind, mid + 1, endIndex)
     }
-    return false
+    else
+      false
   }
 
 
