@@ -4,7 +4,7 @@ class Sorting {
 
   // Insertion Sort
   def insertionSort(list: Array[Int]): Array[Int] = {
-    for(i <- 0 to list.length) {
+    for(i <- 0 to list.length - 1) {
       val key = list(i)
       var j = i - 1
       while(j >= 0 && list(j) > key) {

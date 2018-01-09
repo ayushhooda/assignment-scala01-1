@@ -1,7 +1,5 @@
 [0m[[0m[0minfo[0m] [0m[0m[32mSearchingTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m- Binary Search when element exist *** FAILED ***[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  SearchingTest.this.searching.binarySearch(SearchingTest.this.array, 7, 0, SearchingTest.this.array.length.-(1)) was false (SearchingTest.scala:13)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Binary Search when element exist[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- Binary Search when element not exist[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m- Linear Search when element exist *** FAILED ***[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  SearchingTest.this.searching.linearSearch(SearchingTest.this.array, 7) was false (SearchingTest.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Linear Search when element exist[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- Linear Search when element not exist[0m[0m
